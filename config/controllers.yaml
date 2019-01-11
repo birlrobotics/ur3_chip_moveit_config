@@ -1,6 +1,6 @@
 controller_list:
   - name: ""
-    action_ns: arm_controller/follow_joint_trajectory
+    action_ns: arm_controller/follow_joint_trajectory # modern diver launch 
     type: FollowJointTrajectory
     joints:
       - shoulder_pan_joint
